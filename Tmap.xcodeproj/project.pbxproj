@@ -3,27 +3,88 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		82C5BD3A241B12A700940EF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C5BD39241B12A700940EF3 /* AppDelegate.swift */; };
 		82C5BD3C241B12A700940EF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C5BD3B241B12A700940EF3 /* SceneDelegate.swift */; };
-		82C5BD3E241B12A700940EF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C5BD3D241B12A700940EF3 /* ViewController.swift */; };
-		82C5BD41241B12A700940EF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BD3F241B12A700940EF3 /* Main.storyboard */; };
 		82C5BD43241B12A900940EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BD42241B12A900940EF3 /* Assets.xcassets */; };
 		82C5BD46241B12A900940EF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BD44241B12A900940EF3 /* LaunchScreen.storyboard */; };
+		82C5BD73241B183600940EF3 /* TrackingDotHalo.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BD50241B183600940EF3 /* TrackingDotHalo.png */; };
+		82C5BD74241B183600940EF3 /* TrackingDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BD51241B183600940EF3 /* TrackingDot@2x.png */; };
+		82C5BD75241B183600940EF3 /* HeadingAngleSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BD52241B183600940EF3 /* HeadingAngleSmall@2x.png */; };
+		82C5BD76241B183600940EF3 /* mapbg_tlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BD53241B183600940EF3 /* mapbg_tlogo.png */; };
+		82C5BD77241B183600940EF3 /* poweredby.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BD54241B183600940EF3 /* poweredby.png */; };
+		82C5BD78241B183600940EF3 /* icon_clustering.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BD55241B183600940EF3 /* icon_clustering.png */; };
+		82C5BD79241B183600940EF3 /* mapbg_tlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BD56241B183600940EF3 /* mapbg_tlogo@2x.png */; };
+		82C5BD7A241B183600940EF3 /* tmap_pass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BD57241B183600940EF3 /* tmap_pass@2x.png */; };
+		82C5BD7B241B183600940EF3 /* HeadingAngleSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BD58241B183600940EF3 /* HeadingAngleSmall.png */; };
+		82C5BD7C241B183600940EF3 /* poweredby@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BD59241B183600940EF3 /* poweredby@2x.png */; };
+		82C5BD7D241B183600940EF3 /* TrackingDotHalo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BD5A241B183600940EF3 /* TrackingDotHalo@2x.png */; };
+		82C5BD7E241B183600940EF3 /* tmap_pass.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BD5B241B183600940EF3 /* tmap_pass.png */; };
+		82C5BD7F241B183600940EF3 /* icon_clustering@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BD5C241B183600940EF3 /* icon_clustering@2x.png */; };
+		82C5BD80241B183600940EF3 /* TrackingDot.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BD5D241B183600940EF3 /* TrackingDot.png */; };
+		82C5BD81241B183600940EF3 /* TopLib_Op.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C5BD72241B183600940EF3 /* TopLib_Op.a */; };
+		82C5BD8A241B1FFD00940EF3 /* MapScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C5BD86241B1FFD00940EF3 /* MapScreenView.swift */; };
+		82C5BD8B241B1FFD00940EF3 /* MapScreenProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C5BD87241B1FFD00940EF3 /* MapScreenProtocols.swift */; };
+		82C5BD8C241B1FFD00940EF3 /* MapScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C5BD88241B1FFD00940EF3 /* MapScreenCoordinator.swift */; };
+		82C5BD8D241B1FFD00940EF3 /* MapScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C5BD89241B1FFD00940EF3 /* MapScreenViewModel.swift */; };
+		82C5BD91241B4D7D00940EF3 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BD90241B4D7D00940EF3 /* location.png */; };
+		8A42129B13FF8079D5824FFD /* Pods_Tmap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C036281E898E475C8D0F91 /* Pods_Tmap.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75C036281E898E475C8D0F91 /* Pods_Tmap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tmap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C5BD36241B12A700940EF3 /* Tmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C5BD39241B12A700940EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82C5BD3B241B12A700940EF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		82C5BD3D241B12A700940EF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		82C5BD40241B12A700940EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82C5BD42241B12A900940EF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82C5BD45241B12A900940EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82C5BD47241B12A900940EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82C5BD50241B183600940EF3 /* TrackingDotHalo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrackingDotHalo.png; sourceTree = "<group>"; };
+		82C5BD51241B183600940EF3 /* TrackingDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TrackingDot@2x.png"; sourceTree = "<group>"; };
+		82C5BD52241B183600940EF3 /* HeadingAngleSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeadingAngleSmall@2x.png"; sourceTree = "<group>"; };
+		82C5BD53241B183600940EF3 /* mapbg_tlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapbg_tlogo.png; sourceTree = "<group>"; };
+		82C5BD54241B183600940EF3 /* poweredby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poweredby.png; sourceTree = "<group>"; };
+		82C5BD55241B183600940EF3 /* icon_clustering.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_clustering.png; sourceTree = "<group>"; };
+		82C5BD56241B183600940EF3 /* mapbg_tlogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapbg_tlogo@2x.png"; sourceTree = "<group>"; };
+		82C5BD57241B183600940EF3 /* tmap_pass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tmap_pass@2x.png"; sourceTree = "<group>"; };
+		82C5BD58241B183600940EF3 /* HeadingAngleSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeadingAngleSmall.png; sourceTree = "<group>"; };
+		82C5BD59241B183600940EF3 /* poweredby@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poweredby@2x.png"; sourceTree = "<group>"; };
+		82C5BD5A241B183600940EF3 /* TrackingDotHalo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TrackingDotHalo@2x.png"; sourceTree = "<group>"; };
+		82C5BD5B241B183600940EF3 /* tmap_pass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tmap_pass.png; sourceTree = "<group>"; };
+		82C5BD5C241B183600940EF3 /* icon_clustering@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_clustering@2x.png"; sourceTree = "<group>"; };
+		82C5BD5D241B183600940EF3 /* TrackingDot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrackingDot.png; sourceTree = "<group>"; };
+		82C5BD5F241B183600940EF3 /* TMapType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapType.h; sourceTree = "<group>"; };
+		82C5BD60241B183600940EF3 /* TMapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapObject.h; sourceTree = "<group>"; };
+		82C5BD61241B183600940EF3 /* TMapGpsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapGpsManager.h; sourceTree = "<group>"; };
+		82C5BD62241B183600940EF3 /* TMapPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapPolygon.h; sourceTree = "<group>"; };
+		82C5BD63241B183600940EF3 /* TMapKatec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapKatec.h; sourceTree = "<group>"; };
+		82C5BD64241B183600940EF3 /* TMapPathData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapPathData.h; sourceTree = "<group>"; };
+		82C5BD65241B183600940EF3 /* TMapTapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapTapi.h; sourceTree = "<group>"; };
+		82C5BD66241B183600940EF3 /* TMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapView.h; sourceTree = "<group>"; };
+		82C5BD67241B183600940EF3 /* TMapBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapBaseView.h; sourceTree = "<group>"; };
+		82C5BD68241B183600940EF3 /* TMapMarkerItem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapMarkerItem2.h; sourceTree = "<group>"; };
+		82C5BD69241B183600940EF3 /* TMapOverlayItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapOverlayItem.h; sourceTree = "<group>"; };
+		82C5BD6A241B183600940EF3 /* TMapCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapCircle.h; sourceTree = "<group>"; };
+		82C5BD6B241B183600940EF3 /* TMapPOIItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapPOIItem.h; sourceTree = "<group>"; };
+		82C5BD6C241B183600940EF3 /* TMapPolyLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapPolyLine.h; sourceTree = "<group>"; };
+		82C5BD6D241B183600940EF3 /* TMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMap.h; sourceTree = "<group>"; };
+		82C5BD6E241B183600940EF3 /* TMapMarkerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapMarkerItem.h; sourceTree = "<group>"; };
+		82C5BD6F241B183600940EF3 /* TMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapAnnotation.h; sourceTree = "<group>"; };
+		82C5BD70241B183600940EF3 /* BizCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BizCategory.h; sourceTree = "<group>"; };
+		82C5BD71241B183600940EF3 /* TMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMapPoint.h; sourceTree = "<group>"; };
+		82C5BD72241B183600940EF3 /* TopLib_Op.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = TopLib_Op.a; sourceTree = "<group>"; };
+		82C5BD82241B188200940EF3 /* Tmap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tmap-Bridging-Header.h"; sourceTree = "<group>"; };
+		82C5BD83241B1D2A00940EF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		82C5BD86241B1FFD00940EF3 /* MapScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapScreenView.swift; sourceTree = "<group>"; };
+		82C5BD87241B1FFD00940EF3 /* MapScreenProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapScreenProtocols.swift; sourceTree = "<group>"; };
+		82C5BD88241B1FFD00940EF3 /* MapScreenCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapScreenCoordinator.swift; sourceTree = "<group>"; };
+		82C5BD89241B1FFD00940EF3 /* MapScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapScreenViewModel.swift; sourceTree = "<group>"; };
+		82C5BD90241B4D7D00940EF3 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		EF008A3D926681F4AE62E01E /* Pods-Tmap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tmap.release.xcconfig"; path = "Target Support Files/Pods-Tmap/Pods-Tmap.release.xcconfig"; sourceTree = "<group>"; };
+		F07670F3FB61BBC93F780CAC /* Pods-Tmap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tmap.debug.xcconfig"; path = "Target Support Files/Pods-Tmap/Pods-Tmap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +92,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82C5BD81241B183600940EF3 /* TopLib_Op.a in Frameworks */,
+				8A42129B13FF8079D5824FFD /* Pods_Tmap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		356DA06AE07AD1AAA63F71C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F07670F3FB61BBC93F780CAC /* Pods-Tmap.debug.xcconfig */,
+				EF008A3D926681F4AE62E01E /* Pods-Tmap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7DBDB020562AC613EF6BDA20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75C036281E898E475C8D0F91 /* Pods_Tmap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		82C5BD2D241B12A700940EF3 = {
 			isa = PBXGroup;
 			children = (
+				82C5BD83241B1D2A00940EF3 /* README.md */,
 				82C5BD38241B12A700940EF3 /* Tmap */,
 				82C5BD37241B12A700940EF3 /* Products */,
+				356DA06AE07AD1AAA63F71C9 /* Pods */,
+				7DBDB020562AC613EF6BDA20 /* Frameworks */,
+				82C5BD4D241B17BC00940EF3 /* Libraries */,
+				82C5BD8F241B4D6600940EF3 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +141,107 @@
 		82C5BD38241B12A700940EF3 /* Tmap */ = {
 			isa = PBXGroup;
 			children = (
+				82C5BD84241B1ECB00940EF3 /* modules */,
 				82C5BD39241B12A700940EF3 /* AppDelegate.swift */,
 				82C5BD3B241B12A700940EF3 /* SceneDelegate.swift */,
-				82C5BD3D241B12A700940EF3 /* ViewController.swift */,
-				82C5BD3F241B12A700940EF3 /* Main.storyboard */,
 				82C5BD42241B12A900940EF3 /* Assets.xcassets */,
 				82C5BD44241B12A900940EF3 /* LaunchScreen.storyboard */,
 				82C5BD47241B12A900940EF3 /* Info.plist */,
+				82C5BD82241B188200940EF3 /* Tmap-Bridging-Header.h */,
 			);
 			path = Tmap;
+			sourceTree = "<group>";
+		};
+		82C5BD4D241B17BC00940EF3 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				82C5BD4E241B183600940EF3 /* TmapSDK */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		82C5BD4E241B183600940EF3 /* TmapSDK */ = {
+			isa = PBXGroup;
+			children = (
+				82C5BD4F241B183600940EF3 /* Images */,
+				82C5BD5E241B183600940EF3 /* Headers */,
+				82C5BD72241B183600940EF3 /* TopLib_Op.a */,
+			);
+			path = TmapSDK;
+			sourceTree = "<group>";
+		};
+		82C5BD4F241B183600940EF3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				82C5BD50241B183600940EF3 /* TrackingDotHalo.png */,
+				82C5BD51241B183600940EF3 /* TrackingDot@2x.png */,
+				82C5BD52241B183600940EF3 /* HeadingAngleSmall@2x.png */,
+				82C5BD53241B183600940EF3 /* mapbg_tlogo.png */,
+				82C5BD54241B183600940EF3 /* poweredby.png */,
+				82C5BD55241B183600940EF3 /* icon_clustering.png */,
+				82C5BD56241B183600940EF3 /* mapbg_tlogo@2x.png */,
+				82C5BD57241B183600940EF3 /* tmap_pass@2x.png */,
+				82C5BD58241B183600940EF3 /* HeadingAngleSmall.png */,
+				82C5BD59241B183600940EF3 /* poweredby@2x.png */,
+				82C5BD5A241B183600940EF3 /* TrackingDotHalo@2x.png */,
+				82C5BD5B241B183600940EF3 /* tmap_pass.png */,
+				82C5BD5C241B183600940EF3 /* icon_clustering@2x.png */,
+				82C5BD5D241B183600940EF3 /* TrackingDot.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		82C5BD5E241B183600940EF3 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				82C5BD5F241B183600940EF3 /* TMapType.h */,
+				82C5BD60241B183600940EF3 /* TMapObject.h */,
+				82C5BD61241B183600940EF3 /* TMapGpsManager.h */,
+				82C5BD62241B183600940EF3 /* TMapPolygon.h */,
+				82C5BD63241B183600940EF3 /* TMapKatec.h */,
+				82C5BD64241B183600940EF3 /* TMapPathData.h */,
+				82C5BD65241B183600940EF3 /* TMapTapi.h */,
+				82C5BD66241B183600940EF3 /* TMapView.h */,
+				82C5BD67241B183600940EF3 /* TMapBaseView.h */,
+				82C5BD68241B183600940EF3 /* TMapMarkerItem2.h */,
+				82C5BD69241B183600940EF3 /* TMapOverlayItem.h */,
+				82C5BD6A241B183600940EF3 /* TMapCircle.h */,
+				82C5BD6B241B183600940EF3 /* TMapPOIItem.h */,
+				82C5BD6C241B183600940EF3 /* TMapPolyLine.h */,
+				82C5BD6D241B183600940EF3 /* TMap.h */,
+				82C5BD6E241B183600940EF3 /* TMapMarkerItem.h */,
+				82C5BD6F241B183600940EF3 /* TMapAnnotation.h */,
+				82C5BD70241B183600940EF3 /* BizCategory.h */,
+				82C5BD71241B183600940EF3 /* TMapPoint.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		82C5BD84241B1ECB00940EF3 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				82C5BD85241B1ED300940EF3 /* MapScreen */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		82C5BD85241B1ED300940EF3 /* MapScreen */ = {
+			isa = PBXGroup;
+			children = (
+				82C5BD87241B1FFD00940EF3 /* MapScreenProtocols.swift */,
+				82C5BD88241B1FFD00940EF3 /* MapScreenCoordinator.swift */,
+				82C5BD86241B1FFD00940EF3 /* MapScreenView.swift */,
+				82C5BD89241B1FFD00940EF3 /* MapScreenViewModel.swift */,
+			);
+			path = MapScreen;
+			sourceTree = "<group>";
+		};
+		82C5BD8F241B4D6600940EF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				82C5BD90241B4D7D00940EF3 /* location.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82C5BD4A241B12A900940EF3 /* Build configuration list for PBXNativeTarget "Tmap" */;
 			buildPhases = (
+				A1D89166BEFB4599A0ADBAAA /* [CP] Check Pods Manifest.lock */,
 				82C5BD32241B12A700940EF3 /* Sources */,
 				82C5BD33241B12A700940EF3 /* Frameworks */,
 				82C5BD34241B12A700940EF3 /* Resources */,
+				83DC1D825081F34C904F5289 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +304,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82C5BD7F241B183600940EF3 /* icon_clustering@2x.png in Resources */,
+				82C5BD79241B183600940EF3 /* mapbg_tlogo@2x.png in Resources */,
+				82C5BD7A241B183600940EF3 /* tmap_pass@2x.png in Resources */,
+				82C5BD7C241B183600940EF3 /* poweredby@2x.png in Resources */,
+				82C5BD7B241B183600940EF3 /* HeadingAngleSmall.png in Resources */,
+				82C5BD7E241B183600940EF3 /* tmap_pass.png in Resources */,
 				82C5BD46241B12A900940EF3 /* LaunchScreen.storyboard in Resources */,
+				82C5BD74241B183600940EF3 /* TrackingDot@2x.png in Resources */,
+				82C5BD7D241B183600940EF3 /* TrackingDotHalo@2x.png in Resources */,
 				82C5BD43241B12A900940EF3 /* Assets.xcassets in Resources */,
-				82C5BD41241B12A700940EF3 /* Main.storyboard in Resources */,
+				82C5BD76241B183600940EF3 /* mapbg_tlogo.png in Resources */,
+				82C5BD73241B183600940EF3 /* TrackingDotHalo.png in Resources */,
+				82C5BD91241B4D7D00940EF3 /* location.png in Resources */,
+				82C5BD80241B183600940EF3 /* TrackingDot.png in Resources */,
+				82C5BD77241B183600940EF3 /* poweredby.png in Resources */,
+				82C5BD78241B183600940EF3 /* icon_clustering.png in Resources */,
+				82C5BD75241B183600940EF3 /* HeadingAngleSmall@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83DC1D825081F34C904F5289 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tmap/Pods-Tmap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tmap/Pods-Tmap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tmap/Pods-Tmap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1D89166BEFB4599A0ADBAAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tmap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		82C5BD32241B12A700940EF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82C5BD3E241B12A700940EF3 /* ViewController.swift in Sources */,
+				82C5BD8B241B1FFD00940EF3 /* MapScreenProtocols.swift in Sources */,
 				82C5BD3A241B12A700940EF3 /* AppDelegate.swift in Sources */,
 				82C5BD3C241B12A700940EF3 /* SceneDelegate.swift in Sources */,
+				82C5BD8A241B1FFD00940EF3 /* MapScreenView.swift in Sources */,
+				82C5BD8C241B1FFD00940EF3 /* MapScreenCoordinator.swift in Sources */,
+				82C5BD8D241B1FFD00940EF3 /* MapScreenViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		82C5BD3F241B12A700940EF3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				82C5BD40241B12A700940EF3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		82C5BD44241B12A900940EF3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +512,7 @@
 		};
 		82C5BD4B241B12A900940EF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F07670F3FB61BBC93F780CAC /* Pods-Tmap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,8 +522,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/TmapSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhlee.Tmap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Tmap/Tmap-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +536,7 @@
 		};
 		82C5BD4C241B12A900940EF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF008A3D926681F4AE62E01E /* Pods-Tmap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,8 +546,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Libraries/TmapSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhlee.Tmap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Tmap/Tmap-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
