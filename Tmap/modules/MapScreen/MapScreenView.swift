@@ -69,15 +69,16 @@ class MapScreenView: UIViewController, MapScreenViewProtocol {
 //    marker?.setName("my marker")
 //    mapView.addTMapMarkerItemID("1", marker: marker)
 
-//    동작 안함
 //    let minLat = 37.42852
 //    let maxLat = 37.714784
 //    let minLon = 126.750897
 //    let maxLon = 127.196529
 //    let center = CLLocationCoordinate2DMake((minLat + maxLat)/2, (minLon + maxLon)/2)
-//    mapView.zoom(toLatSpan: maxLat - minLat, lonSpan: maxLon - minLon)
-//    mapView.setCenter(center)
-
+//
+//    DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) { [weak self] in  // 타이밍 문제가 있음
+//      self?.mapView.zoom(toLatSpan: (maxLat) - (minLat), lonSpan: (maxLon) - (minLon))
+//      self?.mapView.setCenter(center)
+//    }
 
 //    let minLat = 37.42852
 //    let maxLat = 37.714784
