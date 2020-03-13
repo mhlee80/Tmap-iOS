@@ -3,10 +3,10 @@
 ## SDK 설치 과정
 
 1. create "Libraries" Group at $(PROJECT_DIR)
-1. add TmapSDK to "Libraries"
-1. create Tmap-Bridging-Header.h" at $(PROJECT_DIR)/Tmap
-1. add Target -> Build Settings -> Objective-C Bridging Header $(PROJECT_DIR)/Tmap/Tmap-Bridging-Header.h
-1. update Tmap-Bridging-Header.h
+2. add TmapSDK to "Libraries"
+3. create Tmap-Bridging-Header.h" at $(PROJECT_DIR)/Tmap
+4. add Target -> Build Settings -> Objective-C Bridging Header $(PROJECT_DIR)/Tmap/Tmap-Bridging-Header.h
+5. update Tmap-Bridging-Header.h
 ```
 #import "BizCategory.h"
 #import "TMap.h"
@@ -28,11 +28,11 @@
 #import "TMapType.h"
 #import "TMapView.h"
 ```
-1. update BizCategory.h
+6. update BizCategory.h
 ```
 #import <Foundation/Foundation.h>
 ```
-1. update TMapView.h
+7. update TMapView.h
 ```
 #import "TMapPoint.h"
 #import "TMapObject.h"
@@ -45,8 +45,8 @@
 #import "TMapOverlayItem.h"
 #import "TMapPOIItem.h"
 ```
-1. build
-1. update info.plist
+8. build
+9. update info.plist
 ```
 Privacy - Location When In Use Usage Description: 위치정보를 사용합니다. 
 App Transport Security Settings -> Allow Arbitrary Loads: YES
